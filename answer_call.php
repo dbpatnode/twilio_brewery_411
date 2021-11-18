@@ -7,7 +7,7 @@ $response = new VoiceResponse;
 
 // Read a message aloud to the caller
 $response->say(
-    "Thank you for calling! Have a great day.", 
+    "Thank you for calling Daniels Brewery Helpline! Working on finding a beer near you.", 
     array("voice" => "alice")
 );
 
